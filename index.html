@@ -9,35 +9,28 @@
 </head>
 
 <body>
-    <!-- <div>
-        <div class="j">JJ</div>
-    </div> -->
-    <header>
+    <!--  <iframe id="tourFrame" src="https://my.matterport.com/show/?m=wdSbDmbX75F&brand=0&mls=1&qs=1&help=0" frameborder="0" fullscreen
+            allow="autoplay; fullscreen; web-share; xr-spatial-tracking;">
+        </iframe> -->
 
-    </header>
-    <main>
-        <div>
-            <p>Venha conhecer a Academia do TJAC de um jeito totalmente novo!
-                Agora você pode explorar cada detalhe do nosso espaço por meio de um tour virtual 360° moderno,
-                interativo e cheio de imersão. <br>
 
-                Caminhe pelos ambientes, visualize os equipamentos, conheça a estrutura e descubra tudo o que a academia
-                oferece — sem precisar sair de onde você está.
-                Ideal para quem quer conferir a qualidade do espaço antes de começar a treinar ou simplesmente deseja
-                conhecer melhor a instituição. <br>
 
-                 Acesse agora e faça sua visita virtual!
-                Explore, navegue e sinta como é estar dentro da Academia do TJAC.</p>
+    <div class="container">
+        <div class="menu">
+            <button onclick="changeView('inicio')">Início</button>
+            <button onclick="changeView('entrada')">Entrada</button>
+            <button onclick="changeView('musculacao')">Musculação 01</button>
         </div>
 
-        <iframe src="https://my.matterport.com/show/?m=wdSbDmbX75F&brand=0&mls=1&qs=1&help=0" frameborder="0" fullscreen
-            allow="autoplay; fullscreen; web-share; xr-spatial-tracking;">
+        <iframe id="tourFrame" src="https://my.matterport.com/show/?m=wdSbDmbX75F&play=1&portal=1" frameborder="0"
+            allow="fullscreen">
         </iframe>
+    </div>
 
-    </main>
 
 
 </body>
+<script src="index.js"></script>
 
 </html>
 <!-- <iframe width="853" height="480" src="https://my.matterport.com/show/?m=G8swsSKjgTB&brand=0" frameborder="0" allowfullscreen allow="autoplay; fullscreen; web-share; xr-spatial-tracking;"></iframe> -->
