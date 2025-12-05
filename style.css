@@ -14,10 +14,18 @@
   align-items: center;
   justify-content: space-between;
   padding: 8px;  
-  background-color: #A01928;
+  background-color: #a01929;
   border: 1px solid #272727;
   h3{
     color: #fff;
+  }
+  button{
+    border: none !important;
+    box-shadow: none !important;
+    width: 3%;
+    img{
+      width: 80%;
+    }
   }
   
 
