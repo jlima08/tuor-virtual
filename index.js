@@ -9,3 +9,18 @@ function changeView(view) {
 
   iframe.src = views[view];
 }
+
+function showMenu(){
+  const abrirMenu = document.getElementById('showMenu');
+  const menu = document.getElementById('menu');
+
+  if (menu.style.display === 'flex') {
+    menu.style.display = 'none';
+  } 
+  else {
+    menu.style.display = 'flex';
+  }
+  
+  
+}
+
