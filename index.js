@@ -13,12 +13,15 @@ function changeView(view) {
 function showMenu(){
   const abrirMenu = document.getElementById('showMenu');
   const menu = document.getElementById('menu');
+  const footer = document.getElementById('footer');
 
   if (menu.style.display === 'flex') {
     menu.style.display = 'none';
+    footer.style.width = '100%';
   } 
   else {
     menu.style.display = 'flex';
+    footer.style.width = '89.2%';
   }
   
   

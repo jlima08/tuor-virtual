@@ -6,6 +6,7 @@
 
 .container {
   display: flex;
+  overflow: hidden;
 }
 
 .header{
@@ -41,11 +42,13 @@
 .menu {
   background-color: #A01928;
   width: 230px;
-  
+  height: 95dvh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
+  z-index: 1000;
 }
 
 .btn-menu{
@@ -64,12 +67,22 @@
   
   img{
     width: 90%;
+    margin-bottom: 10px;
   }
+}
+
+.main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 95dvh;
+  overflow: hidden;
 }
 
 iframe {
   width: 100%;
-  height: 93.7dvh;
+  height: 100%;
+  overflow: hidden !important;
 }
 
 button{
@@ -89,6 +102,22 @@ button:hover{
     box-shadow: none;
 }
 
+footer{
+  background-color: #A01928;
+  color: #fff;
+  font-weight: 600;
+  width: 89.3%;
+  height: 50px;
+  top: 886px;
+  position: absolute;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
 @media only screen and (max-width: 500px) {
   .menu{
     display: none;
@@ -105,6 +134,9 @@ button:hover{
   display: flex;
   justify-content: center; 
   
+}
+footer{
+  top: 810px;
 }
 }
 
