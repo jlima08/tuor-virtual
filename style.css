@@ -94,9 +94,18 @@ button:hover{
     display: none;
     width: 300px;
   }
-  .btn-header{
-    display: block;
+  .header > button{
+    width: 15%;
   }
+  .header > h3{
+    font-size: 15px !important;
+  }
+  .header > img{
+  width: 20%;
+  display: flex;
+  justify-content: center; 
+  
+}
 }
 
 
