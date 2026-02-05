@@ -42,7 +42,7 @@
 .menu {
   background-color: #A01928;
   width: 230px;
-  height: 95dvh;
+  height: 94dvh;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 95dvh;
+  height: 94dvh;
   overflow: hidden;
 }
 
@@ -106,15 +106,14 @@ footer{
   background-color: #A01928;
   color: #fff;
   font-weight: 600;
-  width: 89.3%;
+  width: 100%;
   height: 50px;
-  top: 886px;
+  /* top: 886px;
   position: absolute;
-  z-index: 1000;
+  z-index: 1000; */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 100px;
   overflow: hidden;
 }
 
