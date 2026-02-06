@@ -3,6 +3,10 @@
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
 
 .container {
   display: flex;
@@ -76,7 +80,7 @@
   display: flex;
   flex-direction: column;
   height: 94dvh;
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 iframe {
@@ -102,20 +106,30 @@ button:hover{
     box-shadow: none;
 }
 
-footer{
-  background-color: #A01928;
-  color: #fff;
-  font-weight: 600;
-  width: 100%;
-  height: 50px;
-  /* top: 886px;
-  position: absolute;
-  z-index: 1000; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+.footer {
+    width: 100%;
+    height: 21px;
+    background-color: #2a0f0f; 
+    color: #cbd5f5;
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 0.85rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
 }
+
+.footer a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
 
 @media only screen and (max-width: 500px) {
   .menu{
