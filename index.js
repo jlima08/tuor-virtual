@@ -36,3 +36,34 @@ function showMenu(){
   
 }
 
+const intro = document.getElementById("intro");
+const video = document.getElementById("introVideo");
+const content = document.querySelector(".intro-content");
+
+function startVideo() {
+    content.style.display = "none";
+    video.style.display = "block";
+    video.play();
+}
+
+function skipIntro() {
+    closeIntro();
+}
+
+video.addEventListener("ended", () => {
+    closeIntro();
+});
+
+function closeIntro() {
+    intro.style.opacity = "0";
+
+    setTimeout(() => {
+        intro.style.display = "none";
+    }, 800);
+}
+
+
+
+
+
+
